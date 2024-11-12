@@ -1,0 +1,28 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200vh;
+}
+
+div {
+    margin-bottom: 30px;
+}
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('./imagens/alternativa\ inteligente.jpg');
+    background-size: cover;
+    border: 1px solid red;
+    overflow: auto; /*barra de rolagem*/
+}
+
+#fixed {
+    background-attachment: fixed;
+}
+
+#scroll {
+    background-attachment: scroll;
+}
+
+#local {
+    background-attachment: local;
+}
