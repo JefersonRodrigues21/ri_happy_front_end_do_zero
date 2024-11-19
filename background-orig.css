@@ -27,3 +27,12 @@ div {
 #content-box {
     background-origin: content-box;
 }
+#text {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    font-size: 80px;
+    font-weight: 950;
+    border: 5px solid black;
+    background-image: url('https://www.creativefabrica.com/wp-content/uploads/2023/05/11/Modern-colourful-abstract-background-Graphics-69439498-1.jpg'); 
+}
