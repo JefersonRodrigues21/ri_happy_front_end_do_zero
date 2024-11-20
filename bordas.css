@@ -1,0 +1,24 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.exemplo {
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    /* border-width: 10px;
+    border-style: dotted dashed solid double;
+    border-color:red yellow yellowgreen orange; */
+    border: 10px dashed yellowgreen;
+
+    border-radius: 20px;
+}
+
+.exemplo2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 10px dashed yellowgreen;
+
+    border-radius: 50%; /*transforma em circulo desde que width e heigth tenham tamanhos iguais*/
+}

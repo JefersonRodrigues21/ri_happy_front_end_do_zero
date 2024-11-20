@@ -1,0 +1,29 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.exemplo{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+    margin: 50px auto;
+}
+
+#exemploResumido {
+    border-image: url('./imagens/star-border.png') 169 / 10px / 1 round;/*slice-width-outset-repeat*/
+}
+
+#exemplo1 {
+    border-image-source: url('./imagens/star-border.png');
+    border-image-repeat: round;
+    border-image-slice: 169; /*tamanhdo das 9 fatias da imagem*/
+    /*border-image-width: 15px; define largura da borda*/
+    border-image-outset: 1.5;
+}
+
+#exemplo2 {
+    border-image-source: linear-gradient(red , green);
+    border-image-slice: 10; /*tamanho da fatia da imagem*/
+    border-image-outset: 1.1; /*afasta as bordas*/
+}
