@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras Box-Shadow</title>
+
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 10px solid rgb(145, 46, 46);
+            margin: 20px auto;
+            background: rgb(238, 126, 22);
+ 
+            box-shadow: inset 20px 20px 10px orange, 20px 20px 8px orange; /* o terceiro nº é o desfoque*/;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+            margin: 20px auto;
+            object-fit: cover;
+            filter: drop-shadow(10px 10px 5px black); /*sombra na imagem interna*/
+            box-shadow: 10px 10px 5px red; /*sombra na imagem extena, caixa*/
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Propriedade <code>box-shadow</code></h1>
+
+    <div></div>
+
+    <img src="/imagens/star-border.png" alt="">
+</body>
+
+</html>
